@@ -1,0 +1,15 @@
+CREATE TABLE query_master(
+query_id NUMBER PRIMARY KEy,
+technology VARCHAR2(30) NOT NULL,
+query_raised_by VARCHAR2(20) NOt NULL,
+query VARCHAR2(1000) NOT NULL,
+solutions VARCHAR2(1000),
+solution_given_by VARCHAR2(20));
+
+insert into query_master values(1, 'Core Java', 'Nikhil', 'What is JVM?','','');
+
+insert into query_master values(2, 'Core Java', 'Raveena', 'What is Inheritance?','','');
+
+insert into query_master values(3, 'Core Java', 'Suraj', 'What is Interface?','','');
+
+insert into query_master values(4, 'Servlet', 'Suraj', 'What is Servlet Context?','','');
